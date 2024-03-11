@@ -1,0 +1,108 @@
+.alldata {
+    background-color: white;
+    margin: 40px;
+}
+
+
+.headname {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+nav {
+    margin-bottom: -20px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.treebg {
+    background-image: url('Images/tree2.jpeg');
+}
+
+.imgheight {
+    width: auto;
+    height: 200px;
+    background-repeat: no-repeat;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
+
+}
+
+.btn1 {
+    background-color: #FF8E8F;
+    padding: 5px;
+    border: none;
+    width: 130px;
+    font-weight: bold;
+
+}
+
+.cardheadintro {
+    justify-content: center;
+    background-color: rgb(228, 217, 198);
+
+    margin-top: -60px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container .card2 {
+    background-color: #A4CE95;
+    justify-content: center;
+    text-align: center;
+
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
+    width: auto;
+    height: 250px;
+    border-radius: none;
+
+}
+
+.container .card2 h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+
+}
+.btnsubscribe{
+    padding: 10px;
+    font-size: small;
+    font-weight: bolder;
+    width: 150px;
+    border: none;
+    background-color: #c5d4bb;
+}
+.inputdata{
+    width: 150px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+}
+.cardimgesize{
+    margin-left: -50px;
+    background-color: rgb(228, 217, 198);
+    margin-top: 30px;
+
+}
+.cardimgesize1{
+    margin-right: -50px;
+    background-color: rgb(228, 217, 198);
+    margin-top: 30px;
+
+
+}
+.cardimagesinside{
+    background-color: rgb(255, 251, 251);
+    width: 280px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: -20px;
+    font-style: italic;
+}

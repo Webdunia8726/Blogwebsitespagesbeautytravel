@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Show Contact Form</title>
+<style>
+    /* Style for the contact form */
+    #contactForm {
+        display: none; /* Initially hide the contact form */
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000; /* Ensure the form is above other content */
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(214, 59, 59, 0.1);
+        padding: 20px;
+        background-color: rgb(159, 206, 247);
+    }
+    
+    input{
+      width: 300px;
+      height: 20px;
+      margin-top: 20px;
+    }
+    button{
+      background-color: red;
+      margin-top: 10px;
+      width: 100px;
+      padding: 6px;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+    }
+</style>
+</head>
+<body>
+
+<div id="contactForm">
+    <h2>Contact Form</h2>
+    <!-- Your contact form HTML goes here -->
+    <form>
+        <!-- Contact form fields go here -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <!-- Add other form fields as needed -->
+        <button type="submit">Submit</button>
+        <button type="button" onclick="closeContactForm()">Close</button> <!-- Close button -->
+    </form>
+</div>
+
+<script>
+// Function to show the contact form after 10 seconds
+function showContactForm() {
+    setTimeout(() => {
+        document.getElementById('contactForm').style.display = 'block';
+    }, 1000); // Show the form after 10 seconds (10000 milliseconds)
+}
+
+// Function to close the contact form
+function closeContactForm() {
+    document.getElementById('contactForm').style.display = 'none';
+}
+
+// Call the showContactForm() function to start the countdown
+showContactForm();
+</script>
+
+</body>
+</html>
